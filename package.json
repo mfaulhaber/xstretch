@@ -1,0 +1,21 @@
+{
+  "name": "xstretch",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "setup": "tsx scripts/setup.ts",
+    "native:build": "tsx scripts/native-build.ts",
+    "dev": "pnpm --filter @xstretch/shared build && concurrently -n api,web -c cyan,magenta \"pnpm --filter @xstretch/api dev\" \"pnpm --filter @xstretch/web dev\"",
+    "build": "pnpm --filter @xstretch/shared build && pnpm --filter @xstretch/api build && pnpm --filter @xstretch/web build && tsx scripts/verify-native.ts",
+    "test": "pnpm --filter @xstretch/shared build && pnpm --filter @xstretch/api test && pnpm --filter @xstretch/web test && pnpm test:native",
+    "test:native": "tsx --test tests/native.smoke.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "concurrently": "^9.1.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.2"
+  }
+}

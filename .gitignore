@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+.DS_Store
+runtime/uploads/*
+runtime/outputs/*
+runtime/tmp/*
+!runtime/uploads/.gitkeep
+!runtime/outputs/.gitkeep
+!runtime/tmp/.gitkeep
+vendor/paulxstretch/build
+vendor/paulxstretch/buildXcode
+vendor/paulxstretch/build32
+*.log
