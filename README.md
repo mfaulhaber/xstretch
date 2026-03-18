@@ -36,6 +36,12 @@ High-level flow:
 5. Point Codex at a folder on your Mac where you want the project to live.
 6. Ask Codex to clone this repo, install dependencies, build it, and run it.
 
+If you want Codex to do as much as possible for you, use this prompt in the Codex app:
+
+```text
+Please set up XStretch on my Mac for local use. I am not a developer. Clone https://github.com/mfaulhaber/xstretch into this folder first, then read README.md, PLANS.md, and AGENTS.md in the repo and complete the setup. Install whatever you can automatically. If you hit a GUI-only step like installing Xcode from the App Store, stop and tell me exactly what to click, then continue after I confirm. Finish by running the app and telling me what browser URL to open.
+```
+
 ### ChatGPT Go Plan Option
 
 As of March 18, 2026, OpenAI says Codex is available to ChatGPT `Free` and `Go` users for a limited time.
@@ -76,12 +82,6 @@ To switch to Plus:
 5. Reopen the Codex app and continue the setup task
 
 If you want the highest chance of finishing the setup in one pass on a fresh Mac, start with Plus instead of Go.
-
-If you want Codex to do as much as possible for you, use this prompt in the Codex app:
-
-```text
-Please set up XStretch on my Mac for local use. I am not a developer. Clone https://github.com/mfaulhaber/xstretch into this folder first, then read README.md, PLANS.md, and AGENTS.md in the repo and complete the setup. Install whatever you can automatically. If you hit a GUI-only step like installing Xcode from the App Store, stop and tell me exactly what to click, then continue after I confirm. Finish by running the app and telling me what browser URL to open.
-```
 
 Notes:
 
