@@ -1,0 +1,24 @@
+XStretch
+
+Copyright (C) 2026 Michael Faulhaber
+
+This project is derived from PaulXStretch:
+https://github.com/essej/paulxstretch
+
+Upstream PaulXStretch credits and copyright notices:
+Copyright (C) 2022 Jesse Chappell
+Copyright (C) 2017-2018 Xenakios
+Copyright (C) 2006-2011 Nasca Octavian Paul, Tg. Mures, Romania
+
+This repository includes modified and unmodified PaulXStretch source code.
+Local modifications in this repository include:
+- a native CLI target for inspect/render workflows
+- CMake changes to build the CLI target
+- a macOS compatibility patch in vendored JUCE
+- a local Node.js API and React web frontend wrapper
+
+This repository is distributed under the same license terms as upstream
+PaulXStretch: GNU GPL v3 with the upstream Section 7 additional permission.
+
+Third-party components under vendor/paulxstretch/deps remain under their own
+licenses and notices.
